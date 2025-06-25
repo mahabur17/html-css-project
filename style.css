@@ -1,0 +1,378 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+body{
+    font-family: inter;
+    
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    width: 1512px;
+    
+}
+.div2{
+    display: flex;
+    gap: 30px;
+     justify-content: center;
+    align-items: center;
+   
+    & a{
+        text-decoration: none;
+         color: black;
+    }
+}
+
+.div3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+
+    & button{
+        border-radius: 8px;
+        padding: 5px 10px;
+    }
+}
+#submit{
+    border: none;
+    outline: none;
+    background-color: #e3e2e2;
+    cursor: pointer;
+    padding: 10px 20px;
+}
+#getstart{
+     cursor: pointer;
+    padding: 10px 20px;
+    background-color: #000;
+    color: #fff;
+}
+.hero-section{
+    position: relative;
+    background-image: url("images/Rectangle\ 1.png");
+    width: 1512px;
+    height: 760px;
+    
+}
+.hero-lekha{
+    position: absolute;
+    top: 50%;
+    
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 40px;
+    bottom: 0;
+    width: 1160px;
+    height: 344px;
+    border: 1px solid #fff;
+    background-color: #fff;
+    & h2{
+        text-align: center;
+    }
+}
+.div4 {
+    width: 100%; 
+   
+    height: auto;
+    
+    margin: auto;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+    font-size: 18px;
+    flex-wrap: wrap; 
+    padding: 10px; 
+}
+
+.div4 select {
+    margin-left: 10px; 
+    margin-left: 25px; 
+    font-size: 1em; 
+    border: none;
+    background-color: #ddd;
+}
+#Buy{
+    margin-left: 50px;
+}
+.div5 {
+    background-color: #ddd;
+    
+    display: flex; 
+    align-items: center; 
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+.div6{
+    display: flex;
+    width: 100%;
+    gap: 20px;
+    justify-content: space-between;
+    padding: 0 10px;
+
+
+    & .how{
+        width: 730px;
+        height: 50px;
+        border: none;
+        background-color: #ECECEC;
+color: #000;
+        border-radius: 5px;
+         font-size: 18px;
+      text-align: center;
+      line-height: 50px;
+         letter-spacing: 1px;
+    }
+    & button{
+        width: 230px;
+        height: 49px;
+        border: none;
+        border-radius: 35px;
+  background-color: #00EBC7;
+    }
+}
+
+#find{
+  
+    font-weight: 600;
+}
+.hero-btn{
+    position: absolute;
+    top: 631px;
+    left: 654px;
+    width: 183px;
+    height: 49px;
+    border: 1.5px solid #fff;
+    border-radius: 30px;
+      text-align: center;
+
+    & a{
+        
+        color: #fff;
+        line-height: 49px;
+      
+    }
+    
+}
+.container{
+    width: 1512px;
+    height: 370px;
+    background-color: #FDE24F;
+    position: relative;
+    top: 760px;
+    border-bottom: 2px solid #000;
+    & h2{
+        text-align: center;
+       padding-top: 80px;
+       font-size: 34px;
+       font-weight: 500;
+      
+    }
+    
+   
+}
+.buyimg{
+      width: 1220px;
+      height: 120px;
+     
+      margin-left: 146px;
+
+    }
+    .feature{
+        position: relative;
+        top: 760px;
+        
+        height: 780px;
+         border-bottom: 2px solid #000 ;
+         
+    }
+
+    .maindiv{
+        display: flex;
+     justify-content: space-between;
+        width: 1180px;
+        height: 280px;
+        position: relative;
+        top: 200px;
+        left: 166px;
+        
+      
+       
+    }
+    .div01{
+        text-align: center;
+        
+        height: 279px;
+    }
+    #p1{
+        font-weight: 500;
+        font-size: 24px;
+    }
+    #p2{
+        font-size: 20px;
+        font-weight: 400;
+        color: #535353;
+    }
+    #p3{
+         font-size: 16px;
+        font-weight: 500;
+        text-decoration: underline;
+    }
+#p0{
+    font-size: 34px;
+    font-weight: 500;
+    position: relative;
+    top: 80px;
+    left: 65px;
+}
+.oi{
+    border: 1.5px solid black;
+    padding: 11px 28px;
+    position: relative;
+    top: 350px;
+    left: 642px;
+    font-size: 22px;
+    font-weight: 500px;
+    border-radius: 30px;
+    background-color: #fff;
+}
+.oi a{
+    text-decoration: none;
+    color: #000;
+}
+.main{
+    width: 1512px;
+    height: 750px;
+   display: flex;
+    position: relative;
+    top: 760px;
+     border-bottom: 2px solid #000 ;
+    
+}
+.div11{
+    width: 756px;
+    height: 750px;
+    border-right: 1px solid black;
+    
+   
+}
+.div12{
+     width: 756px;
+    height: 700px;
+   
+    
+}
+.div111{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    border: 1px solid rgb(76, 75, 75);
+    width: 626px;
+    height: 100px;
+    padding-left: 30px;
+    border-radius: 15px;
+}
+#p11{
+   margin-top: 75px;
+   margin-left: 65px;
+    font-size: 34px;
+    font-weight: 500;
+    
+}
+.offer{
+   
+    background-color: #000;
+    color: #fff;
+    border-radius: 15px;
+    font-size: 22px;
+    font-weight: 500;
+    margin-left: 30%;
+    padding: 10px 20px;
+}
+.section1{
+    margin-left: 65px;
+    margin-top: 91px;
+}
+.above-footer{
+    width: 1512px;
+    height: 600px;
+    background-color: #CFBAFF;
+    position: relative;
+    top: 760px;
+}
+#oi-kire{
+    position: relative;
+    top: 161px;
+left: 11%;
+    font-size: 75px;
+    font-weight: 500;
+}
+.get{
+    width:265px;
+    height: 69px;
+    font-size: 32px;
+    font-weight: 500;
+    position: relative;
+    top: 300px;
+    left: 623.5px;
+    color: #fff;
+    background-color: black;
+    border-radius: 30px;
+}
+.get a{
+    color: #fff;
+    text-decoration: none;
+}
+.footer{
+    width: 1512px;
+    height: 605px;
+    background-color: #000;
+    position: relative;
+    top: 760px;
+}
+.sei{
+    display: flex;
+    color: #fff;
+    width: 984px;
+    height: 312px;
+    position: relative;
+    top: 110px;
+    left: 235px;
+    & img{
+        width: 137.5120391845703px;
+        height: 36.38800048828125px;
+    }
+
+}
+.main-div{
+    display: flex;
+   gap: 100px;
+    position: relative;
+    
+    left: 173px;
+    & p{
+        font-size: 20px;
+        font-weight: 600;
+    }
+}
+.div1111{
+     width: 236px;
+    height: 312px;
+}
+#modhu{
+    font-size: 28px;
+    font-weight: 600;
+}
+hr{
+    margin-top: 200px;
+}
+#ses{
+    color: #fff;
+   font-size: 13px;
+   font-weight: 500;
+   text-align: justify;
+   padding: 25px;
+}
